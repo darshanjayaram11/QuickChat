@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const connectDB = async () => {
   try {
     console.log("MONGO_URI type:", typeof process.env.MONGO_URI);
